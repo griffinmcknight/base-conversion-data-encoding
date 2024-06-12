@@ -1,1 +1,3 @@
-# base-conversion-data-encoding
+# Base Conversion Data Encoding on MNIST and MNIST-C
+
+This dataset is a collection of performance data of a simple convolutional neural network classification of base conversion data encoding the MNIST and MNIST-C datasets. The datasets were min-max normalized and the numerical pixel values of the single-channel color images were converted from base 10 into bases 2 through 9 to produce 8 new datasets for both training and testing. Individual models of a uniform CNN architecture are created for each numerical base of the original training data and their performance was evaluated on all bases of the MNIST testing data as well as on unseen corrupted data from MNIST-C (base 10, no conversion).
